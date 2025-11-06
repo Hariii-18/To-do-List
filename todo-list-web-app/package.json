@@ -1,0 +1,31 @@
+{
+  "name": "todo-list-web-app",
+  "version": "1.0.0",
+  "description": "A simple and responsive To Do List web application.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build step can be added here'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "web",
+    "application"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/todo-list-web-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/todo-list-web-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/todo-list-web-app#readme"
+}

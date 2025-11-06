@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>To‑Do List</title>
+  <link rel="stylesheet" href="../src/css/style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1>To‑Do</h1>
+      <p class="sub">Simple, responsive and clean</p>
+    </header>
+
+    <section class="todo-app">
+      <form id="todo-form" class="todo-form" aria-label="Add todo">
+        <input id="todo-input" class="todo-input" type="text" placeholder="What needs to be done?" aria-label="Todo text" />
+        <button type="submit" class="add-btn" aria-label="Add todo">Add</button>
+      </form>
+
+      <div class="controls">
+        <button id="clear-todos" class="clear-btn">Clear all</button>
+        <div class="counts">
+          <span id="total-count">0</span> total • <span id="remaining-count">0</span> remaining
+        </div>
+      </div>
+
+      <div class="todo-container" role="list" aria-live="polite"></div>
+
+      <footer class="footer">
+        <small>Made with ❤️ — LocalStorage backed</small>
+      </footer>
+    </section>
+  </main>
+
+  <script type="module" src="../src/js/app.js"></script>
+</body>
+</html>
